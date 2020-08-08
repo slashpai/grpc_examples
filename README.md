@@ -21,7 +21,7 @@ grpc_tools_ruby_protoc --ruby_out ../ruby --grpc_out ../ruby helloworld.proto
 ## Use Docker for trail runs without installing any dependencies in your machine
 
 ```bash
-docker build . -t grpc_examples:v1
+docker build --no-cache . -t grpc_examples:v1
 ```
 
 References
