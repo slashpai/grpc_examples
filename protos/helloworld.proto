@@ -5,7 +5,7 @@ message HelloRequest {
 }
 
 message HelloResponse {
-    string name = 1;
+    string message = 1;
 }
 
 service Greeter {

@@ -9,7 +9,7 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
       optional :name, :string, 1
     end
     add_message "HelloResponse" do
-      optional :name, :string, 1
+      optional :message, :string, 1
     end
   end
 end
